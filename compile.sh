@@ -19,4 +19,4 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-docker build -t docker-gentoo-nano-ycmd .
+docker build --no-cache -t docker-gentoo-nano-ycmd .

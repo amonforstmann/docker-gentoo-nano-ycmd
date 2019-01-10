@@ -16,6 +16,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
+mkdir -p /etc/portage/package.keywords
 touch /etc/portage/package.keywords/ycmd
 cat <<EOF >> /etc/portage/package.keywords/ycmd
 dev-lang/rust::oiledmachine-overlay
